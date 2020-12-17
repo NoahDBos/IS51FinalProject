@@ -30,9 +30,9 @@ def main():
     string1 = input("Please enter your first word: ")
     string2 = input("Please enter your second word: ")
     if areAnagrams(string1, string2):
-        print("These words are anagrams.")
+        print("The two words are anagrams.")
     else:
-        print("These words are not anagrams.")
+        print("The two words are not anagrams.")
 
 def areAnagrams(string1, string2):
     firstString = string1.lower()
